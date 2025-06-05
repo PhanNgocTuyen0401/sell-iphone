@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Courier New', Courier, monospace;
+
+  .wrapper {
+    .inp-number {
+      padding: 12px 18px;
+      outline: none;
+      margin-bottom: 24px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .value p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 120px;
+
+      .decre,
+      .incre {
+        padding: 12px 26px;
+        background-color: cadetblue;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 40px;
+        color: #fff;
+      }
+
+      .decre:active,
+      .incre:active {
+        background-color: beige;
+      }
+    }
+
+    .btn-update {
+      margin-top: 24px;
+      padding: 12px;
+      background-color: cadetblue;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 40px;
+      color: #fff;
+      font-weight: bold;
+
+      &:active {
+        background-color: rgb(178, 237, 239);
+      }
+    }
+  }
+}

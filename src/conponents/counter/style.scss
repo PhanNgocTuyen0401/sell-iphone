@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Courier New', Courier, monospace;
+
+  .wrapper {
+    .value p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 120px;
+
+      .decre,
+      .incre {
+        padding: 12px 26px;
+        background-color: cadetblue;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 40px;
+        color: #fff;
+      }
+
+      .decre:active,
+      .incre:active {
+        background-color: beige;
+      }
+    }
+  }
+}
